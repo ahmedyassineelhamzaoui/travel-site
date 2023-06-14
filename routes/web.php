@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +18,9 @@ Route::get('/home', function () {
 });
 Route::get('/login', function () {
     return view('admin.auth.login');
+});
+
+Route::controller(AuthController::class)->group(function(){
+    Route::post('/login','login')->name('login');   
+    Route::get('/users','showDashboard')->name('users')->middleware('auth');
 });
