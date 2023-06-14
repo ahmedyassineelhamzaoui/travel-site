@@ -1,59 +1,5 @@
 ﻿@charset "UTF-8";
-/*
-    Table of Contents
 
-    Name                 : Ahmed Yassine
-    Author               : Gladiator
-    Author Portfolio     : ahemed.yassine.elhamzaoui2019@gmail.com
-    
-
-
-    Table of Sass Contents
-
-    1. Abstracts
-        _bs-custom
-        _inheritance
-        _maps
-        _mixin
-        _variable
-
-    2. bootstrap 
-        -Here goes all official bootstrap scss files
-
-    3. Global/Base
-        _color
-        _custom-grid
-        _fonts
-        _helper
-        _reset
-
-    4. layout
-        +footer
-        +header
-        +rtl
-        +sidebar
-        +tables
-        +theme
-        +version-dark
-
-    5. Conponents
-        +app
-        +charts
-        +forms
-        +map
-        +uc
-        +ui
-        +widget
-
-    6. Page
-        _index-1
-        _page-error
-        _page-register
-        _page-signin
-        _page-user-lock
-        _page-user-lock
-
-*/
 @import url("../../css.css");
 @import url("../../css-1.css");
 @import url("../../css-2.css");
@@ -25276,7 +25222,6 @@ code {
     font-size: 24px;
     position: relative;
     padding: 0 10px; }
-
 .widget-media .timeline .timeline-panel {
   display: flex;
   align-items: center;
